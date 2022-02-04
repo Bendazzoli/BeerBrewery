@@ -18,6 +18,11 @@
 		48146DCD27AD50C700892C22 /* BeerBreweryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48146DCC27AD50C700892C22 /* BeerBreweryTests.swift */; };
 		48146DD727AD50C700892C22 /* BeerBreweryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48146DD627AD50C700892C22 /* BeerBreweryUITests.swift */; };
 		48146DD927AD50C700892C22 /* BeerBreweryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48146DD827AD50C700892C22 /* BeerBreweryUITestsLaunchTests.swift */; };
+		48146DEC27AD54A500892C22 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48146DE727AD54A500892C22 /* Quicksand-Bold.ttf */; };
+		48146DED27AD54A500892C22 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48146DE827AD54A500892C22 /* Quicksand-SemiBold.ttf */; };
+		48146DEE27AD54A500892C22 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48146DE927AD54A500892C22 /* Quicksand-Medium.ttf */; };
+		48146DEF27AD54A500892C22 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48146DEA27AD54A500892C22 /* Quicksand-Regular.ttf */; };
+		48146DF027AD54A500892C22 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48146DEB27AD54A500892C22 /* Quicksand-Light.ttf */; };
 		887E214A8087A2C40804F0D0 /* Pods_BeerBrewery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90838E7DF82EDB744BC8F0E /* Pods_BeerBrewery.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +58,11 @@
 		48146DD227AD50C700892C22 /* BeerBreweryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerBreweryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48146DD627AD50C700892C22 /* BeerBreweryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerBreweryUITests.swift; sourceTree = "<group>"; };
 		48146DD827AD50C700892C22 /* BeerBreweryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerBreweryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48146DE727AD54A500892C22 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		48146DE827AD54A500892C22 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		48146DE927AD54A500892C22 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		48146DEA27AD54A500892C22 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		48146DEB27AD54A500892C22 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
 		5B173975B084B80D95091113 /* Pods-BeerBreweryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerBreweryTests.release.xcconfig"; path = "Target Support Files/Pods-BeerBreweryTests/Pods-BeerBreweryTests.release.xcconfig"; sourceTree = "<group>"; };
 		85C96B6C15B08318AB3E3514 /* Pods-BeerBrewery-BeerBreweryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerBrewery-BeerBreweryUITests.debug.xcconfig"; path = "Target Support Files/Pods-BeerBrewery-BeerBreweryUITests/Pods-BeerBrewery-BeerBreweryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9623CB42E03C862A10A36992 /* Pods_BeerBrewery_BeerBreweryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerBrewery_BeerBreweryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +132,7 @@
 				48146DBB27AD50C500892C22 /* Main.storyboard */,
 				48146DBE27AD50C700892C22 /* Assets.xcassets */,
 				48146DC027AD50C700892C22 /* LaunchScreen.storyboard */,
+				48146DE527AD546700892C22 /* Resources */,
 				48146DC327AD50C700892C22 /* Info.plist */,
 			);
 			path = BeerBrewery;
@@ -144,6 +155,26 @@
 			path = BeerBreweryUITests;
 			sourceTree = "<group>";
 		};
+		48146DE527AD546700892C22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48146DE627AD548000892C22 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		48146DE627AD548000892C22 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				48146DE727AD54A500892C22 /* Quicksand-Bold.ttf */,
+				48146DEB27AD54A500892C22 /* Quicksand-Light.ttf */,
+				48146DE927AD54A500892C22 /* Quicksand-Medium.ttf */,
+				48146DEA27AD54A500892C22 /* Quicksand-Regular.ttf */,
+				48146DE827AD54A500892C22 /* Quicksand-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		5DB4321AE9AC2F847BFF6381 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +195,6 @@
 				E9786805A099F39D4021CDC4 /* Pods-BeerBreweryTests.debug.xcconfig */,
 				5B173975B084B80D95091113 /* Pods-BeerBreweryTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -276,8 +306,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				48146DC227AD50C700892C22 /* LaunchScreen.storyboard in Resources */,
+				48146DED27AD54A500892C22 /* Quicksand-SemiBold.ttf in Resources */,
+				48146DEF27AD54A500892C22 /* Quicksand-Regular.ttf in Resources */,
 				48146DBF27AD50C700892C22 /* Assets.xcassets in Resources */,
 				48146DBD27AD50C500892C22 /* Main.storyboard in Resources */,
+				48146DEC27AD54A500892C22 /* Quicksand-Bold.ttf in Resources */,
+				48146DEE27AD54A500892C22 /* Quicksand-Medium.ttf in Resources */,
+				48146DF027AD54A500892C22 /* Quicksand-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
