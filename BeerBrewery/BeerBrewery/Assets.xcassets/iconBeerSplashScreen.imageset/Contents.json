@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Vector.pdf",
+      "filename" : "iconBeerSplashScreen.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "iconBeerSplashScreen-1.pdf",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "iconBeerSplashScreen-2.pdf",
       "idiom" : "universal",
       "scale" : "3x"
     }
