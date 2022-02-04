@@ -130,7 +130,6 @@
 				48146E3C27AD7EB900892C22 /* Shared */,
 				48146E3B27AD7EAB00892C22 /* View */,
 				48146DBE27AD50C700892C22 /* Assets.xcassets */,
-				48146DF127AD5D6800892C22 /* Screen */,
 				48146DE527AD546700892C22 /* Resources */,
 				48146DC327AD50C700892C22 /* Info.plist */,
 			);
@@ -172,13 +171,6 @@
 				48146DE827AD54A500892C22 /* Quicksand-SemiBold.ttf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		48146DF127AD5D6800892C22 /* Screen */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Screen;
 			sourceTree = "<group>";
 		};
 		48146E3B27AD7EAB00892C22 /* View */ = {
