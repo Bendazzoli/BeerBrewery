@@ -129,9 +129,8 @@
 				48146DB527AD50C500892C22 /* AppDelegate.swift */,
 				48146DB727AD50C500892C22 /* SceneDelegate.swift */,
 				48146DB927AD50C500892C22 /* ViewController.swift */,
-				48146DBB27AD50C500892C22 /* Main.storyboard */,
 				48146DBE27AD50C700892C22 /* Assets.xcassets */,
-				48146DC027AD50C700892C22 /* LaunchScreen.storyboard */,
+				48146DF127AD5D6800892C22 /* Screen */,
 				48146DE527AD546700892C22 /* Resources */,
 				48146DC327AD50C700892C22 /* Info.plist */,
 			);
@@ -173,6 +172,15 @@
 				48146DE827AD54A500892C22 /* Quicksand-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		48146DF127AD5D6800892C22 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				48146DBB27AD50C500892C22 /* Main.storyboard */,
+				48146DC027AD50C700892C22 /* LaunchScreen.storyboard */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		5DB4321AE9AC2F847BFF6381 /* Frameworks */ = {
