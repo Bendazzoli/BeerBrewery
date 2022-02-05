@@ -18,8 +18,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FindBreweryErrorViewController" customModule="BeerBrewery" customModuleProvider="target">
             <connections>
-                <outlet property="descriptionErrorBrewery" destination="xvX-th-Pyl" id="YgQ-WR-3vG"/>
-                <outlet property="titleErrorBrewery" destination="zZv-NP-NKW" id="RE4-IU-BUz"/>
+                <outlet property="descriptionErrorBrewery" destination="xvX-th-Pyl" id="WnL-bc-4ts"/>
+                <outlet property="titleErrorBrewery" destination="zZv-NP-NKW" id="LD3-Ym-hjN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -29,13 +29,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nenhum resultado encontrado para a busca" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZv-NP-NKW">
-                    <rect key="frame" x="32" y="40" width="350" height="50"/>
+                    <rect key="frame" x="32" y="40" width="350" height="47"/>
                     <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Por favor, verifique sua pesquisa e tente novamente para obter resultados." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvX-th-Pyl">
-                    <rect key="frame" x="16" y="102" width="382" height="40"/>
+                    <rect key="frame" x="16" y="99" width="382" height="37.5"/>
                     <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="16"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>

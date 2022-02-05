@@ -15,25 +15,26 @@ class FindBreweryErrorViewController: UIViewController {
         static let descriptionBreweryError = "findBreweryError.description"
     }
     
+    @IBOutlet weak var titleErrorBrewery: UILabel!
+    @IBOutlet weak var descriptionErrorBrewery: UILabel!
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     func notBreweryTyped() {
-        //titleErrorBrewery.text = Constants.titleNoBreweryTyped.localized
-        //descriptionErrorBrewery.text = Constants.descriptionBreweryError.localized
+        titleErrorBrewery.text = Constants.titleNoBreweryTyped.localized
+        descriptionErrorBrewery.text = Constants.descriptionBreweryError.localized
     }
 
     func notBreweryFound() {
-        //titleErrorBrewery.text = Constants.titleNotFoundBrewery.localized
-        //descriptionErrorBrewery.text = Constants.descriptionBreweryError.localized
+        titleErrorBrewery.text = Constants.titleNotFoundBrewery.localized
+        descriptionErrorBrewery.text = Constants.descriptionBreweryError.localized
     }
     
     func breweryError(title: String, description: String) {
-        //titleErrorBrewery.text = title
-        //descriptionErrorBrewery.text = description
+        titleErrorBrewery.text = title
+        descriptionErrorBrewery.text = description
     }
 
 
