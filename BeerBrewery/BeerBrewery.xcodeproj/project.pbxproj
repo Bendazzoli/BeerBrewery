@@ -23,7 +23,7 @@
 		486C099627AE084A00E3A1CB /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486C099127AE084A00E3A1CB /* Quicksand-Regular.ttf */; };
 		486C099727AE084A00E3A1CB /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486C099227AE084A00E3A1CB /* Quicksand-SemiBold.ttf */; };
 		486C099827AE084A00E3A1CB /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486C099327AE084A00E3A1CB /* Quicksand-Light.ttf */; };
-		486C099A27AE08D100E3A1CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 486C099927AE08D100E3A1CB /* Localizable.strings */; };
+		486C099B27AE091700E3A1CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 486C099D27AE091700E3A1CB /* Localizable.strings */; };
 		7B9DED6DC3A8CE1D0F9816E1 /* Pods_BeerBrewery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2E0F8B039965BD69A29A7A /* Pods_BeerBrewery.framework */; };
 		90CBB4F0612696CA736676D2 /* Pods_BeerBrewery_BeerBreweryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F11DCF6541B53A4B5AAA23 /* Pods_BeerBrewery_BeerBreweryUITests.framework */; };
 		F79EA68AA8FCC538F0269DCA /* Pods_BeerBreweryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA27426B7383BD9D8BBD0538 /* Pods_BeerBreweryTests.framework */; };
@@ -68,7 +68,8 @@
 		486C099127AE084A00E3A1CB /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
 		486C099227AE084A00E3A1CB /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
 		486C099327AE084A00E3A1CB /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
-		486C099927AE08D100E3A1CB /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Resources/Localizable.strings; sourceTree = "<group>"; };
+		486C099C27AE091700E3A1CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		486C099E27AE092C00E3A1CB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4BE8CC276AE7886F35FED7EB /* Pods-BeerBrewery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerBrewery.release.xcconfig"; path = "Target Support Files/Pods-BeerBrewery/Pods-BeerBrewery.release.xcconfig"; sourceTree = "<group>"; };
 		5C216BE8776899F9A6023E5D /* Pods-BeerBrewery-BeerBreweryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerBrewery-BeerBreweryUITests.release.xcconfig"; path = "Target Support Files/Pods-BeerBrewery-BeerBreweryUITests/Pods-BeerBrewery-BeerBreweryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AA27426B7383BD9D8BBD0538 /* Pods_BeerBreweryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerBreweryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,7 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				486C098E27AE084A00E3A1CB /* Fonts */,
-				486C099927AE08D100E3A1CB /* Localizable.strings */,
+				486C099D27AE091700E3A1CB /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -321,6 +322,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 48146DA927AD50C500892C22;
 			productRefGroup = 48146DB327AD50C500892C22 /* Products */;
@@ -344,7 +346,7 @@
 				486C099827AE084A00E3A1CB /* Quicksand-Light.ttf in Resources */,
 				486C099727AE084A00E3A1CB /* Quicksand-SemiBold.ttf in Resources */,
 				48146DBF27AD50C700892C22 /* Assets.xcassets in Resources */,
-				486C099A27AE08D100E3A1CB /* Localizable.strings in Resources */,
+				486C099B27AE091700E3A1CB /* Localizable.strings in Resources */,
 				486C099527AE084A00E3A1CB /* Quicksand-Medium.ttf in Resources */,
 				48146DBD27AD50C500892C22 /* Main.storyboard in Resources */,
 				486C099627AE084A00E3A1CB /* Quicksand-Regular.ttf in Resources */,
@@ -506,6 +508,16 @@
 			name = TopTenCardViewController.xib;
 			sourceTree = "<group>";
 		};
+		486C099D27AE091700E3A1CB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				486C099C27AE091700E3A1CB /* en */,
+				486C099E27AE092C00E3A1CB /* pt-BR */,
+			);
+			name = Localizable.strings;
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -513,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -574,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
