@@ -23,6 +23,8 @@
 		48146DEE27AD54A500892C22 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48146DE927AD54A500892C22 /* Quicksand-Medium.ttf */; };
 		48146DEF27AD54A500892C22 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48146DEA27AD54A500892C22 /* Quicksand-Regular.ttf */; };
 		48146DF027AD54A500892C22 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48146DEB27AD54A500892C22 /* Quicksand-Light.ttf */; };
+		48638B0E27ADFCC3008CF6F8 /* TopTenCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48638B0C27ADFCC3008CF6F8 /* TopTenCardViewController.swift */; };
+		48638B0F27ADFCC3008CF6F8 /* TopTenCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48638B0D27ADFCC3008CF6F8 /* TopTenCardViewController.xib */; };
 		887E214A8087A2C40804F0D0 /* Pods_BeerBrewery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90838E7DF82EDB744BC8F0E /* Pods_BeerBrewery.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,8 @@
 		48146DE927AD54A500892C22 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
 		48146DEA27AD54A500892C22 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
 		48146DEB27AD54A500892C22 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		48638B0C27ADFCC3008CF6F8 /* TopTenCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenCardViewController.swift; sourceTree = "<group>"; };
+		48638B0D27ADFCC3008CF6F8 /* TopTenCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopTenCardViewController.xib; sourceTree = "<group>"; };
 		5B173975B084B80D95091113 /* Pods-BeerBreweryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerBreweryTests.release.xcconfig"; path = "Target Support Files/Pods-BeerBreweryTests/Pods-BeerBreweryTests.release.xcconfig"; sourceTree = "<group>"; };
 		85C96B6C15B08318AB3E3514 /* Pods-BeerBrewery-BeerBreweryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerBrewery-BeerBreweryUITests.debug.xcconfig"; path = "Target Support Files/Pods-BeerBrewery-BeerBreweryUITests/Pods-BeerBrewery-BeerBreweryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9623CB42E03C862A10A36992 /* Pods_BeerBrewery_BeerBreweryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerBrewery_BeerBreweryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +180,7 @@
 		48146E3B27AD7EAB00892C22 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				48638B0D27ADFCC3008CF6F8 /* TopTenCardViewController.xib */,
 				48146DBB27AD50C500892C22 /* Main.storyboard */,
 				48146DC027AD50C700892C22 /* LaunchScreen.storyboard */,
 			);
@@ -195,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				48146DB927AD50C500892C22 /* ViewController.swift */,
+				48638B0C27ADFCC3008CF6F8 /* TopTenCardViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -332,6 +338,7 @@
 				48146DC227AD50C700892C22 /* LaunchScreen.storyboard in Resources */,
 				48146DED27AD54A500892C22 /* Quicksand-SemiBold.ttf in Resources */,
 				48146DEF27AD54A500892C22 /* Quicksand-Regular.ttf in Resources */,
+				48638B0F27ADFCC3008CF6F8 /* TopTenCardViewController.xib in Resources */,
 				48146DBF27AD50C700892C22 /* Assets.xcassets in Resources */,
 				48146DBD27AD50C500892C22 /* Main.storyboard in Resources */,
 				48146DEC27AD54A500892C22 /* Quicksand-Bold.ttf in Resources */,
@@ -430,6 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48638B0E27ADFCC3008CF6F8 /* TopTenCardViewController.swift in Sources */,
 				48146DBA27AD50C500892C22 /* ViewController.swift in Sources */,
 				48146DB627AD50C500892C22 /* AppDelegate.swift in Sources */,
 				48146DB827AD50C500892C22 /* SceneDelegate.swift in Sources */,
