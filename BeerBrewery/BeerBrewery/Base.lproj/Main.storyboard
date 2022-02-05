@@ -87,7 +87,9 @@ Encontre as melhores cervejarias</string>
                     </view>
                     <navigationItem key="navigationItem" id="FmU-sS-uY4"/>
                     <connections>
+                        <outlet property="localeButton" destination="Ib1-fk-fZa" id="drR-Vy-ERY"/>
                         <outlet property="textFieldSearch" destination="0Vh-uX-uiC" id="YDN-10-sCr"/>
+                        <outlet property="welcomeLabel" destination="YgI-A1-wAi" id="sb6-Rr-HF2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

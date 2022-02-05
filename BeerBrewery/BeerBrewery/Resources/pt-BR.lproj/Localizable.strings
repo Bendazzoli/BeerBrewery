@@ -5,3 +5,8 @@
   Created by Paulo Henrique Bendazzoli on 04/02/22.
   
 */
+
+// MARK: ViewController Texts
+"viewController.welcome.title" = "Bem-vindo(a)!\nEncontre as melhores cervejarias";
+"viewController.search.placeholder" = "Buscar cervejaria por cidade";
+"viewController.localeButton.description" = "Utilizar meu local";

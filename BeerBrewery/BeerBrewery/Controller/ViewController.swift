@@ -8,12 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    private enum Constants {
+        static let welcomeTitle = "viewController.welcome.title"
+        static let searchTextFieldPlaceholder = "viewController.search.placeholder"
+        static let localeButtonDescription = "viewController.localeButton.description"
+    }
 
     @IBOutlet weak var textFieldSearch: UITextField!
+    @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var localeButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imageTextfield()
+        setViewControllerStrings()
     }
     
     func imageTextfield() {
@@ -25,6 +34,11 @@ class ViewController: UIViewController {
         view.addSubview(imageview)
         textFieldSearch?.leftViewMode = .always
         textFieldSearch?.leftView = view
+    }
+    
+    func setViewControllerStrings() {
+        textFieldSearch.placeholder = Constants.searchTextFieldPlaceholder.localized
+        welcomeLabel.text = Constants.welcomeTitle.localized
     }
 }
 

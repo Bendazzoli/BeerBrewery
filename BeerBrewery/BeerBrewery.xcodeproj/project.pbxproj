@@ -24,6 +24,7 @@
 		486C099727AE084A00E3A1CB /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486C099227AE084A00E3A1CB /* Quicksand-SemiBold.ttf */; };
 		486C099827AE084A00E3A1CB /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486C099327AE084A00E3A1CB /* Quicksand-Light.ttf */; };
 		486C099B27AE091700E3A1CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 486C099D27AE091700E3A1CB /* Localizable.strings */; };
+		486C09A127AE09AB00E3A1CB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C09A027AE09AB00E3A1CB /* String.swift */; };
 		7B9DED6DC3A8CE1D0F9816E1 /* Pods_BeerBrewery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2E0F8B039965BD69A29A7A /* Pods_BeerBrewery.framework */; };
 		90CBB4F0612696CA736676D2 /* Pods_BeerBrewery_BeerBreweryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F11DCF6541B53A4B5AAA23 /* Pods_BeerBrewery_BeerBreweryUITests.framework */; };
 		F79EA68AA8FCC538F0269DCA /* Pods_BeerBreweryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA27426B7383BD9D8BBD0538 /* Pods_BeerBreweryTests.framework */; };
@@ -70,6 +71,7 @@
 		486C099327AE084A00E3A1CB /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
 		486C099C27AE091700E3A1CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		486C099E27AE092C00E3A1CB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		486C09A027AE09AB00E3A1CB /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		4BE8CC276AE7886F35FED7EB /* Pods-BeerBrewery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerBrewery.release.xcconfig"; path = "Target Support Files/Pods-BeerBrewery/Pods-BeerBrewery.release.xcconfig"; sourceTree = "<group>"; };
 		5C216BE8776899F9A6023E5D /* Pods-BeerBrewery-BeerBreweryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerBrewery-BeerBreweryUITests.release.xcconfig"; path = "Target Support Files/Pods-BeerBrewery-BeerBreweryUITests/Pods-BeerBrewery-BeerBreweryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AA27426B7383BD9D8BBD0538 /* Pods_BeerBreweryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerBreweryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 		48146DA927AD50C500892C22 = {
 			isa = PBXGroup;
 			children = (
+				486C099F27AE095D00E3A1CB /* Extensions */,
 				48146DB427AD50C500892C22 /* BeerBrewery */,
 				48146DCB27AD50C700892C22 /* BeerBreweryTests */,
 				48146DD527AD50C700892C22 /* BeerBreweryUITests */,
@@ -208,6 +211,14 @@
 			);
 			name = Fonts;
 			path = Resources/Fonts;
+			sourceTree = "<group>";
+		};
+		486C099F27AE095D00E3A1CB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				486C09A027AE09AB00E3A1CB /* String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		573367638EC23D07E62D525B /* Frameworks */ = {
@@ -446,6 +457,7 @@
 			files = (
 				486C098A27AE080E00E3A1CB /* TopTenCardViewController.swift in Sources */,
 				486C098927AE080E00E3A1CB /* ViewController.swift in Sources */,
+				486C09A127AE09AB00E3A1CB /* String.swift in Sources */,
 				48146DB627AD50C500892C22 /* AppDelegate.swift in Sources */,
 				48146DB827AD50C500892C22 /* SceneDelegate.swift in Sources */,
 			);

@@ -5,3 +5,8 @@
   Created by Paulo Henrique Bendazzoli on 04/02/22.
   
 */
+
+// MARK: ViewController Texts
+"viewController.welcome.title" = "Welcome!\nFind the best breweries";
+"viewController.search.placeholder" = "Find brewery by city";
+"viewController.localeButton.description" = "Use my locale";
