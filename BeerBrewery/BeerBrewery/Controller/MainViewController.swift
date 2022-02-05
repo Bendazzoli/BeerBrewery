@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
     private enum Constants {
         static let welcomeTitle = "viewController.welcome.title"
@@ -19,10 +19,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var welcomeLabel: UILabel!
     @IBOutlet weak var localeButton: UIButton!
     
+    var searchText: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imageTextfield()
         setViewControllerStrings()
+        topTenBreweries()
     }
     
     func imageTextfield() {
@@ -39,6 +42,10 @@ class ViewController: UIViewController {
     func setViewControllerStrings() {
         textFieldSearch.placeholder = Constants.searchTextFieldPlaceholder.localized
         welcomeLabel.text = Constants.welcomeTitle.localized
+    }
+    
+    func topTenBreweries() {
+        
     }
 }
 

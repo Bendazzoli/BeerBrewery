@@ -13,10 +13,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BeerBrewery" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="BeerBrewery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,6 +66,12 @@ Encontre as melhores cervejarias</string>
                                     </attributedString>
                                 </state>
                             </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5wo-Gs-8Q1">
+                                <rect key="frame" x="0.0" y="260" width="414" height="476"/>
+                                <connections>
+                                    <segue destination="2Q8-Yh-Vlw" kind="embed" id="H6o-be-ftH"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -75,14 +81,18 @@ Encontre as melhores cervejarias</string>
                             <constraint firstItem="Tne-AN-7bh" firstAttribute="top" secondItem="0Vh-uX-uiC" secondAttribute="bottom" constant="8" id="7D3-18-DG4"/>
                             <constraint firstItem="HNi-ge-PGx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7nJ-LO-ka4"/>
                             <constraint firstItem="0Vh-uX-uiC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="CqP-ZK-GVj"/>
+                            <constraint firstItem="5wo-Gs-8Q1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ifx-Xl-GOB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Vh-uX-uiC" secondAttribute="trailing" constant="16" id="KGg-zH-ciE"/>
                             <constraint firstItem="0Vh-uX-uiC" firstAttribute="top" secondItem="YgI-A1-wAi" secondAttribute="bottom" constant="16" id="LZX-SO-izK"/>
                             <constraint firstItem="Tne-AN-7bh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Pvg-TV-EBc"/>
+                            <constraint firstItem="5wo-Gs-8Q1" firstAttribute="top" secondItem="HNi-ge-PGx" secondAttribute="bottom" constant="16" id="RQ7-g9-NFV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HNi-ge-PGx" secondAttribute="trailing" id="S3C-qX-2vm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YgI-A1-wAi" secondAttribute="trailing" constant="30" id="ShQ-qn-blZ"/>
+                            <constraint firstAttribute="trailing" secondItem="5wo-Gs-8Q1" secondAttribute="trailing" id="VIj-66-Qg6"/>
                             <constraint firstItem="HNi-ge-PGx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xwg-AH-55t"/>
                             <constraint firstItem="Ib1-fk-fZa" firstAttribute="top" secondItem="0Vh-uX-uiC" secondAttribute="bottom" constant="4" id="YgZ-pH-fxa"/>
                             <constraint firstItem="YgI-A1-wAi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="e5b-R3-ZDK"/>
+                            <constraint firstAttribute="bottom" secondItem="5wo-Gs-8Q1" secondAttribute="bottom" id="kzo-W3-Fzd"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FmU-sS-uY4"/>
@@ -117,6 +127,20 @@ Encontre as melhores cervejarias</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aY3-5K-scP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="57.589285714285708"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aPH-Yy-JHC">
+            <objects>
+                <viewController id="2Q8-Yh-Vlw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sIm-0t-4tc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="476"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lfb-9k-HN4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1755" y="57"/>
         </scene>
     </scenes>
     <resources>

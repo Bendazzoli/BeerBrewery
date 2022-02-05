@@ -16,7 +16,7 @@
 		48146DD727AD50C700892C22 /* BeerBreweryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48146DD627AD50C700892C22 /* BeerBreweryUITests.swift */; };
 		48146DD927AD50C700892C22 /* BeerBreweryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48146DD827AD50C700892C22 /* BeerBreweryUITestsLaunchTests.swift */; };
 		4837656127AEDE8B00370A79 /* Cervejaria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4837656027AEDE8B00370A79 /* Cervejaria.swift */; };
-		486C098927AE080E00E3A1CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C098727AE080E00E3A1CB /* ViewController.swift */; };
+		486C098927AE080E00E3A1CB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C098727AE080E00E3A1CB /* MainViewController.swift */; };
 		486C098A27AE080E00E3A1CB /* TopTenCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C098827AE080E00E3A1CB /* TopTenCardViewController.swift */; };
 		486C098D27AE083C00E3A1CB /* TopTenCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 486C098B27AE083C00E3A1CB /* TopTenCardViewController.xib */; };
 		486C099427AE084A00E3A1CB /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486C098F27AE084A00E3A1CB /* Quicksand-Bold.ttf */; };
@@ -65,7 +65,7 @@
 		48146DD627AD50C700892C22 /* BeerBreweryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerBreweryUITests.swift; sourceTree = "<group>"; };
 		48146DD827AD50C700892C22 /* BeerBreweryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerBreweryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4837656027AEDE8B00370A79 /* Cervejaria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cervejaria.swift; sourceTree = "<group>"; };
-		486C098727AE080E00E3A1CB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controller/ViewController.swift; sourceTree = "<group>"; };
+		486C098727AE080E00E3A1CB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Controller/MainViewController.swift; sourceTree = "<group>"; };
 		486C098827AE080E00E3A1CB /* TopTenCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopTenCardViewController.swift; path = Controller/TopTenCardViewController.swift; sourceTree = "<group>"; };
 		486C098C27AE083C00E3A1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TopTenCardViewController.xib; sourceTree = "<group>"; };
 		486C098F27AE084A00E3A1CB /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 			children = (
 				486C09AD27AE152C00E3A1CB /* FindBreweryErrorViewController.swift */,
 				486C098827AE080E00E3A1CB /* TopTenCardViewController.swift */,
-				486C098727AE080E00E3A1CB /* ViewController.swift */,
+				486C098727AE080E00E3A1CB /* MainViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -475,7 +475,7 @@
 			files = (
 				486C098A27AE080E00E3A1CB /* TopTenCardViewController.swift in Sources */,
 				4837656127AEDE8B00370A79 /* Cervejaria.swift in Sources */,
-				486C098927AE080E00E3A1CB /* ViewController.swift in Sources */,
+				486C098927AE080E00E3A1CB /* MainViewController.swift in Sources */,
 				486C09A127AE09AB00E3A1CB /* String.swift in Sources */,
 				48146DB627AD50C500892C22 /* AppDelegate.swift in Sources */,
 				486C09AE27AE152C00E3A1CB /* FindBreweryErrorViewController.swift in Sources */,
