@@ -10,3 +10,8 @@
 "viewController.welcome.title" = "Bem-vindo(a)!\nEncontre as melhores cervejarias";
 "viewController.search.placeholder" = "Buscar cervejaria por cidade";
 "viewController.localeButton.description" = "Utilizar meu local";
+
+// MARK: - xib Brewery Error
+"findBreweryError.title.noBreweryTyped" = "Nenhum termo digitado";
+"findBreweryError.title.notFoundBrewery" = "Nenhum resultado encontrado para a busca";
+"findBreweryError.description" = "Por favor, verifique sua pesquisa e tente novamente para obter resultados.";
