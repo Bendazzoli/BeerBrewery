@@ -1,2 +1,2 @@
 # BeerBrewery
-Projeto criado pelo bootcamp da CI&T para estudarmos e nos capacitarmos em Swift iOS.
+Projeto criado no bootcamp promovido pela CI&T voltado ao aprendizado em Swift iOS.
