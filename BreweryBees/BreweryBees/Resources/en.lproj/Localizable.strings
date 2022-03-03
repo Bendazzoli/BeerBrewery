@@ -1,0 +1,45 @@
+// MARK: - xib Brewery Error
+"findBreweryError.title.noBreweryTyped" = "No terms typed";
+"findBreweryError.title.notFoundBrewery" = "No results found for your search.";
+"findBreweryError.description" = "Please check your search and try again for results.";
+
+// MARK: - Home Welcome text
+"TitleWelcome" = "Welcome!\nFind the best breweries";
+"SerchMyBrewery" = "Find Brewery by city";
+"FindMyLocation" = "Use my Location";
+"favorite.navigationBar.title" = "Favorite breweries";
+
+// MARK: - favorite screen
+"favorite.title.navigationBar" = "Favorite breweries";
+"favorite.title.noFavoriteAdded" = "No favorite brewery";
+"favorite.description.noFavoriteAdded" = "You don't have a favorite brewery yet. Your favorite breweries will appear here.";
+"favorite.title.added" = "Your favorite breweries";
+"favorite.breweryResultOne" = "result";
+"favorite.breweryResultMore" = "results";
+"favorite.orderBy" = "Order by:";
+"favorite.removePopUp.title" = "Remove favorite?";
+"favorite.removePopUp.description" = "When you remove the brewery from favorites, it no longer appears in the list of favorite breweries. You can add the brewery as a favorite again whenever you want.";
+"favorite.removePopUp.cancelButton" = "CANCEL";
+"favorite.removePopUp.confirmButton" = "REMOVE FAVORITE";
+
+//MARK: - rated breweries screen
+"rated.navigationBar.title" = "Rated Breweries";
+"rated.brewery.no.result.title" = "No rated breweries";
+"rated.brewery.no.result.description" = "You have not yet rated any breweries. Your breweries will appear here.";
+"rated.brewery.title" = "Rated breweries";
+"rated.brewery.result" = "result";
+"rated.brewery.results" = "results";
+"rated.brewery.orderBy.description" = "Order by:";
+"rated.brewery.orderBy.name" = "Name";
+"rated.brewery.orderBy.rate" = "Rate";
+// Order by Lottie's screen
+"rated.brewery.orderBy.title" = "Order by";
+"rated.brewery.orderBy.byName" = "Name (A to Z)";
+"rated.brewery.orderBy.byRate" = "Rate (greatest to less)";
+
+//MARK:  - email confirm screen
+"email.confirm.title" = "Breweries you've rated";
+"email.confirm.description" = "Enter your email to consult the breweries evaluated.";
+"email.confirm.emailField.placeholder" = "name@email.com";
+"email.confirm.checkbox.description" = "Remember my email for future queries";
+"email.confirm.button.text" = "CONFIRM";
